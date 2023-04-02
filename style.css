@@ -1,0 +1,41 @@
+.instructions{
+    float: right;
+    display: inline;
+}
+
+#heading{
+    background-color: rgb(1, 12, 26);
+    margin:10px;
+    margin-bottom: 25px;
+    padding: 10px;
+    color:white;
+    padding-bottom: 20px;
+}
+
+body{
+    color: white;
+    font-family: monospace;
+}
+
+.modal-dialog{
+    width: 90%;
+}
+
+.footer{
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation { 
+from{box-shadow: 1px 1px 38px crimson; background-color: crimson;}
+33%{box-shadow: 1px 1px 38px chartreuse; background-color: chartreuse;} 
+66%{box-shadow: 1px 1px 38px royalblue; background-color: royalblue;} 
+to{box-shadow: 1px 1px 38px crimson; background-color: crimson;}
+}
